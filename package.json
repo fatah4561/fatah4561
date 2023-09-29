@@ -82,7 +82,6 @@
   "scripts": {
     "dev": "tailwindcss -i src/input.css -o src/output.css --minify --watch",
     "build": " tailwindcss -i src/input.css -o src/output.css --minify && copy src\\index.html dist\\index.html && copy src\\output.css dist\\output.css",
-    "test-build": "copy src\\index.html dist\\index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
