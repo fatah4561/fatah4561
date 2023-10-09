@@ -82,7 +82,7 @@
   },
   "scripts": {
     "dev": "tailwindcss -i src/input.css -o src/output.css --watch",
-    "build": " tailwindcss -i src/input.css -o src/output.css --minify && copy src\\index.html dist\\index.html && copy src\\output.css dist\\output.css",
+    "build-ms": " tailwindcss -i src/input.css -o src/output.css --minify && robocopy src dist /s /e /xf input.css",
     "ms": "robocopy src dist /s /e /xf input.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
