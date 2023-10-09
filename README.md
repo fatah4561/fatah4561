@@ -1,7 +1,7 @@
 
 # About
 
-A "brutalist" static portfolio by myself (Fatah At-Thariq / fatah4561) in an attempt to learn tailwind.css.
+A "brutalist" static portfolio by myself (Fatah At-Thariq / fatah4561) in an attempt to learn tailwind.css. Results is [here](https://fatah4561.github.io/).
 
 ## Instalation
 
